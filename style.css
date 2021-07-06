@@ -30,15 +30,15 @@ body{
     display: flex;
 }
 .flex-width1{
-    width: 55%;      
+    width: 40%;      
 }
 #top-banner{
     font-size: 40px;
     text-align: end;
-    line-height: 35px;
+    line-height: 50px;
 }
 .flex-width2{
-    width: 45%;
+    width: 60%;
     padding-left: 30px;
 }
 .flex-width2 img{
@@ -48,19 +48,19 @@ body{
     color: #FFDD06;
 }
 #banner-paragraph{
-    font-size: 19px;
+    font-size: 20px;
     text-align: left;
     margin-left: 20px;
     padding-bottom: 0;
-    line-height: 15px;
+    line-height: 30px;
 }
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(#FFDD06,#ffaf01);
-    box-shadow: 5px 5px 10px #97968d88;
-    font-size: 18px;
+    box-shadow: 0 0 20px #97968d88;
+    font-size: 20px;
     border-radius: 25px;
-    padding: 10px 30px;
+    padding: 10px 50px;
     margin-left: 20px;
     float: left;
     color: rgba(0, 0, 0, 0.575);
@@ -68,7 +68,7 @@ body{
 
 
 #about-us{
-    padding: 5%;
+    padding: 0 5%;
 
 }
 #about-us h1{
@@ -76,14 +76,16 @@ body{
     text-align: center;
 }
 #about-us p{
-    font-size: 15px;
+    font-size: 18px;
     text-align: justify;
+    padding-top: 50px;
+    padding-bottom: 25px;
 }
 #about-picture{
-    padding-top: 5%;
     padding-left: 0;
     padding-bottom: 0;
     float: left;
+    margin-top: -4px;
     
 }
 #about-us .link-button{
@@ -111,6 +113,8 @@ body{
     padding-bottom: 10px;
     color: #FFDD06;
 }
+
+
 .one-third-width{
     width: 33.33%;
     padding: 0 10px;
@@ -132,5 +136,43 @@ body{
 #Recipes .one-third-width p{
     text-align: justify;
     padding: 5px 15px;
+}
 
+
+.mail .flex-width1 img{
+    width: 70%;
+    padding: 5%;
+    float:right;
+}
+.mail {
+    margin: 5%;
+    border: #555353;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.425);
+    border-radius: 20px;
+}
+.mail .flex-width2{
+    padding-right: 0;
+    padding-left: 30px;
+}
+.mail .flex-width2 h1{
+    font-size: 40px;
+}
+.mail .flex-width2 p{
+    font-size: 19px;
+    line-height: 40px;
+}
+
+footer{
+    display: block;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 7%;
+    background-color: #555353;
+}  
+footer h1{
+    color: #FFDD06;
+    font-size: 30px;
+}
+footer h3{
+    color: whitesmoke;
 }
