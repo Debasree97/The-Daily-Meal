@@ -1,17 +1,41 @@
 body{
-    margin-top: 0;
-    margin-right: 0;
+    margin: 0;
     font-family: 'Merriweather', serif;
     color: #555353;
 }
+.navbar-container{
+    margin-bottom: 0;
+    position: sticky;
+}
+.navbar-container ul{
+    display: block;
+    list-style-type: none;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #555353;
+    overflow: hidden;
+}
+.navbar-container a{
+    color: #FFDD06;
+    text-decoration: none;
+    float: right;
+    margin-right: 2%;
+    padding: 25px 20px;
+    text-align: right;
+}
 .flexible-container{
     display: flex;
+    width: 100%;
 }
 .flex-width1{
-    width: 55%;
+    width: 55%;      
+}
+#top-banner{
     font-size: 40px;
     text-align: end;
-    line-height: 35px;   
+    line-height: 35px;
 }
 .flex-width2{
     width: 45%;
@@ -35,9 +59,31 @@ body{
     background-image: linear-gradient(#FFDD06,#ffaf01);
     box-shadow: 5px 5px 5px #97968d88;
     font-size: 18px;
-    border-radius: 12px;
-    padding: 5px;
+    border-radius: 25px;
+    padding: 10px 15px;
     margin-left: 20px;
     float: left;
-    color: rgba(0, 0, 0, 0.479);
+    color: rgba(0, 0, 0, 0.575);
+}
+#about-us{
+    padding: 5%;
+
+}
+#about-us h1{
+    font-size: 40px;
+    text-align: center;
+}
+#about-us p{
+    font-size: 15px;
+    text-align: justify;
+}
+#about-picture{
+    padding-top: 5%;
+    padding-left: 0;
+    margin-left: 0;
+    float: left;
+    
+}
+#about-us .link-button{
+    margin-left: 0;
 }
