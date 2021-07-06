@@ -69,8 +69,8 @@ body{
 
 #about-us{
     padding: 0 5%;
-    border: 5px dotted #555353;
     margin-bottom: 4px;
+    background-image: url(shapes/recipe-bg.jpg);
 
 }
 #about-us h1{
@@ -94,7 +94,6 @@ body{
 }
 
 #Recipes{
-    background-image: url(shapes/recipe-bg.jpg);
     display: block;
     padding: 2% 35px;
     
@@ -105,7 +104,8 @@ body{
 }
 #Recipes p{
     text-align: center;
-    padding-bottom: 10px;
+    font-size: 20px;
+    padding-bottom: 15px;
 }
 #Recipes h2{
     font-weight: bold;
@@ -117,7 +117,7 @@ body{
     width: 33.33%;
     margin:0 3%;
     padding-top: 2%;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.425);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.425);
     background-color: #555353c2;
     color: whitesmoke;
     border-radius: 20px;
