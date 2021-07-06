@@ -69,6 +69,8 @@ body{
 
 #about-us{
     padding: 0 5%;
+    border: 5px dotted #555353;
+    margin-bottom: 4px;
 
 }
 #about-us h1{
@@ -80,13 +82,12 @@ body{
     text-align: justify;
     padding-top: 50px;
     padding-bottom: 25px;
+    
 }
 #about-picture{
     padding-left: 0;
     padding-bottom: 0;
     float: left;
-    margin-top: -4px;
-    
 }
 #about-us .link-button{
     margin-left: 0;
@@ -96,7 +97,6 @@ body{
     background-image: url(shapes/recipe-bg.jpg);
     display: block;
     padding: 2% 35px;
-    margin-top: -4px;
     
 }
 #Recipes h1{
@@ -170,7 +170,7 @@ footer{
     background-color: #555353;
 }  
 footer h1{
-    color: #FFDD06;
+    color: gainsboro;
     font-size: 30px;
 }
 footer h3{
