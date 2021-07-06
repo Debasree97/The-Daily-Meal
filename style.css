@@ -56,7 +56,7 @@ body{
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(#FFDD06,#ffaf01);
+    background-image: linear-gradient(#FFDD06,#ff7c02);
     box-shadow: 0 0 20px #97968d88;
     font-size: 20px;
     border-radius: 25px;
@@ -113,13 +113,10 @@ body{
     padding-bottom: 10px;
     color: #FFDD06;
 }
-
-
 .one-third-width{
     width: 33.33%;
-    padding: 0 10px;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin:0 3%;
+    padding-top: 2%;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.425);
     background-color: #555353c2;
     color: whitesmoke;
@@ -131,7 +128,6 @@ body{
     border-radius: 20px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 20px;
 }
 #Recipes .one-third-width p{
     text-align: justify;
